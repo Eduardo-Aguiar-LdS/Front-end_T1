@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>T1-CriaçãoPaginaBootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <style>
+        * {
+            text-align: center;
+        }
+
+        .tituloPágina {
+            border-bottom: 1px solid black;
+            font-size: 40px;
+        }
+
+        .divisaoLivro {
+            border: 1px solid black;
+            border-radius: 30px;
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container-fluid mb-5">
+        <div class="row">
+            <div class="col-12">
+                <span class="tituloPágina">
+                    Livros
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row container mx-auto g-3">
+        <!-- Livro -- Harry Potter -->
+        <div class="col-md-6 divisaoLivro p-3">
+            <img src="../images/livro1HarryPotter.png" alt="Livro Harry Potter" height="300px">
+            <p>Harry Potter e a Pedra Filosofal</p>
+            <p>J. K. Rowling</p>
+        </div>
+
+        <!-- Livro -- O Senhor dos Anéis -->
+        <div class="col-md-6 divisaoLivro p-3">
+            <img src="../images/livro2OSenhorDosAneis.png" alt=" Livro O Senhor dos Anéis" height="300px">
+            <p>O Senhor dos Anéis</p>
+            <p>J. R. R. Tolkien</p>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
